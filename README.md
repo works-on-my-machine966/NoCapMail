@@ -33,3 +33,14 @@ Follow these steps to run NoCapMail locally on your machine:
    ```bash
    git clone [https://github.com/YOUR-USERNAME/nocapmail.git](https://github.com/YOUR-USERNAME/nocapmail.git)
    cd nocapmail
+
+2. **Install the required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Start the local development server:**
+   ```bash
+   python -m uvicorn main:app --reload
+   
+4. **Open browser:**
+   Navigate to http://127.0.0.1:8000 to interact with the dashboard.
